@@ -1,0 +1,8 @@
+This program takes a log file, parses out IP addresses and determines the forecasted high-temperature for the next
+calendar day.  This temperature data is then partitioned into histogram bins of user-provided width, whereupon the min,
+max, and count values are tabulated into a TSV.
+
+Requires installing numpy and requests,
+
+Usage is:
+python AD_Coding_Exercise.py <input file> <output file> <bucket count>
